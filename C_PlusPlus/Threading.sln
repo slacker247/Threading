@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Threading", "Threading\Threading.vcproj", "{C2172135-4D11-42F3-8330-309E51596EA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestThreading", "TestThreading\TestThreading.vcproj", "{C88317B6-000E-4D5C-AB69-3197A222385A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01FA36DE-C4F4-4D07-AC97-384AE42FE22E}"
+	ProjectSection(SolutionItems) = preProject
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2172135-4D11-42F3-8330-309E51596EA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2172135-4D11-42F3-8330-309E51596EA6}.Debug|Win32.Build.0 = Debug|Win32
+		{C2172135-4D11-42F3-8330-309E51596EA6}.Release|Win32.ActiveCfg = Release|Win32
+		{C2172135-4D11-42F3-8330-309E51596EA6}.Release|Win32.Build.0 = Release|Win32
+		{C88317B6-000E-4D5C-AB69-3197A222385A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C88317B6-000E-4D5C-AB69-3197A222385A}.Debug|Win32.Build.0 = Debug|Win32
+		{C88317B6-000E-4D5C-AB69-3197A222385A}.Release|Win32.ActiveCfg = Release|Win32
+		{C88317B6-000E-4D5C-AB69-3197A222385A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
